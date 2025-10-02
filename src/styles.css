@@ -1,0 +1,13 @@
+:root {
+    --bs-primary-bg : 233, 236, 239;
+}
+
+@font-face {
+  src: url("/assets/fonts/atwriter.ttf") format("ttf");
+  font-family: "Bebas";
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow: hidden;
+    }
