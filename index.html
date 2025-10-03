@@ -1,23 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Critique de Conjuring The last Rites</title>
-    <style>body{display: flex;justify-content: center;min-height: 100vh;align-items: center;gap: 1rem;overflow-y: hidden;}</style>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Critique de Conjuring The Last Rites</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./src/styles.css">
 </head>
 <body data-bs-theme="dark">
-  <div class="container">
-    <div class="row g-2 align-items-center">
+  <div class="container-fluid p-0 position-relative">
+    <img src="./assets/images/conj_img_1.jpg" class="img-fluid conj1_img" alt="img_cong">
+    <p class="titre-text">Critique de Conjuring <br><span class="text-rouge">The Last Rites</span></p>
+    <div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+    Autres Critiques
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+    <li><button class="dropdown-item" type="button">Conjuring 1</button></li>
+    <li><button class="dropdown-item" type="button">Conjuring 2</button></li>
+    <li><button class="dropdown-item" type="button">Conjuring 3</button></li>
+  </ul>
+</div>
+  </div>
+
+  <div class="bande-mots-cles d-flex justify-content-center align-items-center text-center p-2">
+    <i class="bi bi-camera-video-fill"></i>
+    <span>Horreur</span>
+    <i class="bi bi-display"></i>
+    <span>Film</span>
+    <i class="bi bi-snapchat"></i>
+    <span>Surnaturel</span>
+    </div>
+
+  <div class="container mt-3">
+    <div class="row g-2 align-items-start">
       <div class="col-8">
-        <img src="./assets/images/The_Conjuring_Universe_logo.jpg" class="img-fluid" alt="Conjuring The Last Rites">
+        <img src="./assets/images/The_Conjuring_Universe_logo.jpg" class="img-fluid rounded" alt="Conjuring The Last Rites">
       </div>
       <div class="col-4">
-        <div class="card border border-3 border-bs-primaray-bg">
-          <div class="card-body">
-            <h5 class="card-title">Autres films Conjuring</h5>
+        <div class="card border border-3 bs-primary-bg">
+          <div class="card-body card-body-gradient">
+            <h5 class="card-title">Autres films reliés à Conjuring</h5>
           </div>
         </div>
       </div>
