@@ -8,9 +8,7 @@
 
 @font-face {
   font-family: "Font1942";
-  src: url("../assets/fonts/1942.woff2") format("woff2"),
-       url("../assets/fonts/1942.woff") format("woff"),
-       url("../assets/fonts/1942.ttf") format("truetype");
+  src: url("../assets/fonts/1942.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -25,9 +23,9 @@
 }
 
 @font-face {
-  font-family: "FontJMH";
-  src: url("../assets/fonts/jmh.ttf") format("truetype");
-    font-weight: normal;
+  font-family: "FontJmh";
+  src: url("../assets/fonts/JMH Typewriter.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -43,7 +41,13 @@ body {
 }
 
 .card-body-gradient {
-  background: linear-gradient(90deg, var(--bs-dark-bg) 50%, var(--bs-light-bg) 100%);
+  background: linear-gradient(var(--bs-dark-bg) 30%, var(--bs-light-bg) 70%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "FontJmh", sans-serif;
+  font-size: 1.5rem;
+  color: var(--bs-primary-bg);
 }
 
 .conj1_img {
@@ -92,7 +96,52 @@ body {
 }
 
 .dropdown-menu {
-  font-family: "FontJMH", sans-serif;
+  font-family: "FontJmh", sans-serif;
   font-size: 1.2rem;
   background-color: var(--bs-light-bg);
+}
+
+.card-img-rounded-circle {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top right;
+}
+
+.card-lorraine {
+  background: linear-gradient(var(--bs-dark-bg) 30%, var(--bs-light-bg) 70%);
+}
+
+.card-ed {
+  background: linear-gradient(var(--bs-dark-bg) 30%, var(--bs-light-bg) 70%);
+
+}
+
+.card-ed img {
+  object-fit: cover;
+  object-position: 15% center;
+}
+
+p {
+  font-family: "FontJmh", sans-serif;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+ul {
+  font-family: "FontJmh", sans-serif;
+  font-size: 1.2rem;
+}
+
+.img-edlor {
+  width: 50%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+.accordion-body {
+  font-family: "FontJmh", sans-serif;
+  font-size: 1.1rem;
+  text-align: justify;
 }
